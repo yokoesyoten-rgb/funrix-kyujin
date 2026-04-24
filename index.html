@@ -583,7 +583,7 @@ async function analyze() {
   const jobs = document.getElementById('jobs').value.trim();
   hideError();
 
-  if (!apiKey) { showError('APIキーを入力してください'); return; }
+  
   if (!interview) { showError('面談記録を入力してください'); return; }
 
   setLoading(true);
