@@ -1,1 +1,0 @@
-# funrix-kyujin
