@@ -456,11 +456,7 @@
 
   <!-- Input Panel -->
   <div id="panel-input">
-    <div class="form-section">
-      <label class="form-label">🔑 Anthropic APIキー <span>*必須</span></label>
-      <input type="password" id="apiKey" class="form-input" placeholder="sk-ant-api03-...">
-      <div class="form-hint">※ APIキーはこのブラウザ内のみで使用されます。外部サーバーには送信されません。</div>
-    </div>
+    
 
     <div class="form-section">
       <label class="form-label">📋 面談記録 <span>*必須</span></label>
@@ -582,7 +578,7 @@ function setLoading(on) {
 }
 
 async function analyze() {
-  const apiKey = document.getElementById('apiKey').value.trim();
+  const apiKey = "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";
   const interview = document.getElementById('interview').value.trim();
   const jobs = document.getElementById('jobs').value.trim();
   hideError();
